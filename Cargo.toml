@@ -1,0 +1,11 @@
+[package]
+name = "lau-jepa-gravity"
+version = "0.1.0"
+edition = "2021"
+description = "JEPA gravity system — room-based gravity values that algorithmically adjust model parameters"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+
+[dev-dependencies]
+serde_json = "1"
